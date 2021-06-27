@@ -1,0 +1,59 @@
+.fashion {
+    background-image: url("../../assets/glassesImage/background.jpg");
+    height: 45rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fashion .overlay {
+    background-color: #00000073;
+    height: 100%;
+}
+.fashion .overlay .header {
+    background-color: #0000007a;
+    width: 100%;
+}
+.fashion .overlay .header h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+
+.fashion .overlay .body  {
+    width: 40%;
+    margin: auto;
+    padding: 1rem 0 3rem 0;
+}
+
+.fashion .overlay .body .model_changed {
+    background-image: url("../../assets/glassesImage/model.jpg");
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.fashion .overlay .body .model {
+    background-image: url("../../assets/glassesImage/model.jpg");
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.fashion .overlay .body .description {
+    bottom: 0;
+    background-color: #ff7f50a6;
+    padding: 5px;
+    height: 90px;
+}
+.fashion .overlay .footer {
+    padding: 1rem;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
